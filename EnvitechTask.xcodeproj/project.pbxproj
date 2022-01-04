@@ -13,6 +13,8 @@
 		798BC2C82782227600A31323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798BC2C62782227600A31323 /* Main.storyboard */; };
 		798BC2CA2782227700A31323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798BC2C92782227700A31323 /* Assets.xcassets */; };
 		798BC2CD2782227700A31323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798BC2CB2782227700A31323 /* LaunchScreen.storyboard */; };
+		798BC2D6278223AE00A31323 /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798BC2D5278223AE00A31323 /* ApiModel.swift */; };
+		798BC2D82782333300A31323 /* WorkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798BC2D72782333300A31323 /* WorkApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		798BC2C92782227700A31323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		798BC2CC2782227700A31323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		798BC2CE2782227700A31323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798BC2D5278223AE00A31323 /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
+		798BC2D72782333300A31323 /* WorkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		798BC2BF2782227600A31323 /* EnvitechTask */ = {
 			isa = PBXGroup;
 			children = (
+				798BC2D42782238000A31323 /* Models */,
 				798BC2C02782227600A31323 /* AppDelegate.swift */,
 				798BC2C22782227600A31323 /* SceneDelegate.swift */,
 				798BC2C42782227600A31323 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				798BC2CE2782227700A31323 /* Info.plist */,
 			);
 			path = EnvitechTask;
+			sourceTree = "<group>";
+		};
+		798BC2D42782238000A31323 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				798BC2D5278223AE00A31323 /* ApiModel.swift */,
+				798BC2D72782333300A31323 /* WorkApi.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798BC2D6278223AE00A31323 /* ApiModel.swift in Sources */,
 				798BC2C52782227600A31323 /* ViewController.swift in Sources */,
+				798BC2D82782333300A31323 /* WorkApi.swift in Sources */,
 				798BC2C12782227600A31323 /* AppDelegate.swift in Sources */,
 				798BC2C32782227600A31323 /* SceneDelegate.swift in Sources */,
 			);

@@ -133,7 +133,7 @@ class ViewController: UIViewController {
         vstack.translatesAutoresizingMaskIntoConstraints = false
         
         let constraints = [
-            vstack.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor),
+            vstack.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor),
             vstack.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
         ]
         NSLayoutConstraint.activate(constraints)
